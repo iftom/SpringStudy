@@ -23,13 +23,13 @@ public class Testing {
         System.out.println(user);
     }
 
-    public static void main3(String[] args) {
+    public static void main(String[] args) {
         AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(JavaConfig.class);
         Person person = ctx.getBean(Person.class);
         System.out.println(person.getNameAndAge());
     }
 
-    public static void main(String[] args) {
+    public static void main3(String[] args) {
 
 
     }
