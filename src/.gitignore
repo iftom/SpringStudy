@@ -1,0 +1,23 @@
+pid
+*.yml
+*.properties
+
+# Created by .ignore support plugin (hsz.mobi)
+.gradle
+gradle*
+
+
+build
+out
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+
+gen
+logs/
+
+
+!/.gitignore
