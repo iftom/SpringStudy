@@ -12,14 +12,14 @@ import test.service.IAccountService;
  */
 public class AccountService implements IAccountService {
 
-    private IAccountDao accountDao = (IAccountDao) BeanFactory.getBean("accountDao");
+private IAccountDao accountDao = (IAccountDao) BeanFactory.getBean("accountDao");
 
-    public AccountService() throws Exception {
-    }
+public AccountService() throws Exception {
+        }
 
 
-    @Override
-    public void saveAccount() {
+@Override
+public void saveAccount() {
         accountDao.saveAccount();
-    }
-}
+        }
+        }
